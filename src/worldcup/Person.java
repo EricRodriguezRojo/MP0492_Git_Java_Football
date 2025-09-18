@@ -1,7 +1,7 @@
 package worldcup;
 
 public abstract class Person {
-	private int age;
+	protected int age;
 	
 	public Person(int age) {
 		super();
