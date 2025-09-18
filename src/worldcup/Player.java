@@ -4,7 +4,7 @@ package worldcup;
  * Class to define the midfielder
  */
 
-/*All the class Player generated*/
+/*All the class Player created*/
 
 public class Player{
 	String name;
