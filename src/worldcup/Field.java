@@ -5,6 +5,7 @@ package worldcup;
  */
 public class Field {
 	
+	 int size;
 
 	/**
 	 * @return the size
