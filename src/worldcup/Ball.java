@@ -9,7 +9,6 @@ public class Ball {
         return material;
     }
 
-   
     public void setMaterial(String material) {
         this.material = material;
     }
