@@ -7,6 +7,12 @@ import java.util.Random;
  */
 public class Forward extends Player {
 	boolean killer;
+	
+	
+	public Forward(int age, String position, boolean killer) {
+		super(age, position);
+		this.killer = killer;
+	}
 
 	public void drible() {
 		System.out.println("dribbling");
