@@ -2,13 +2,13 @@ package worldcup;
 
 import java.util.Random;
 
-/**
- * Class to define the goalkeeper
- */
+
 public class Goalkeeper extends Player {
-	public Goalkeeper(String name, String nickname, int age, String position) {
-		super(name, nickname, age, position);
-		// TODO Auto-generated constructor stub
+
+	public Goalkeeper(int age, String position, boolean globes) {
+		super(age, position);
+		this.globes = globes;
+
 	}
 
 	boolean globes;

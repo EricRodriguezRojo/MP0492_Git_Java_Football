@@ -4,13 +4,13 @@ package worldcup;
  * Class to define the coach
  */
 public class Coach extends Person {
-	public Coach(int age) {
-		super(age);
-		// TODO Auto-generated constructor stub
-	}
 
 	String style;
-
+	
+	public Coach(int age) {
+		super(age);
+	}
+	
 	public void train() {
 		System.out.println("train");
 	}
