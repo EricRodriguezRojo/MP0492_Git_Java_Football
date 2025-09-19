@@ -4,7 +4,6 @@ package worldcup;
  * Class to define the coach
  */
 public class Coach extends Person {
-	
 
 	String style;
 	

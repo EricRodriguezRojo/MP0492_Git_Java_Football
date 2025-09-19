@@ -6,6 +6,11 @@ package worldcup;
 public class Midfielder extends Player {
 	private boolean vision;
 
+	public Midfielder(String name, String nickname, int age, String position, boolean vision) {
+		super(name, nickname, age, position);
+		this.vision = vision;
+	}
+
 	/**
 	 * @return the vision
 	 */
