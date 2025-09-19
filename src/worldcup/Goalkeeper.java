@@ -4,9 +4,9 @@ import java.util.Random;
 
 
 public class Goalkeeper extends Player {
-	public Goalkeeper(String name, String nickname, int age, String position) {
-		super(name, nickname, age, position);
-		
+	public Goalkeeper(int age, String position, boolean globes) {
+		super(age, position);
+		this.globes = globes;
 	}
 
 	boolean globes;
