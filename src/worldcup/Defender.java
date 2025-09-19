@@ -5,8 +5,14 @@ import java.util.Random;
 /**
  *  Class to define the defender
  */
-public class Defender { 
+public class Defender extends Player  { 
+	
+	
 	boolean mark;
+	
+	public Defender(int age, String position) {
+		super(age, position);
+	}
 
     public void steal(Ball ball){
     	String[] effects = { "with fault", "without fault" };
