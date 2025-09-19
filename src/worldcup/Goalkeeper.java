@@ -6,6 +6,11 @@ import java.util.Random;
  * Class to define the goalkeeper
  */
 public class Goalkeeper extends Player {
+	public Goalkeeper(String name, String nickname, int age, String position) {
+		super(name, nickname, age, position);
+		// TODO Auto-generated constructor stub
+	}
+
 	boolean globes;
 
 	/**
