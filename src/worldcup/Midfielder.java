@@ -20,7 +20,9 @@ public class Midfielder extends Player {
 		this.vision = vision;
 	}
 
+	
+	/** In this class we only need to change a little error, we change the word "print1n" to "println"*/
 	public void organize() {
-		System.out.print1n("organizing");
+		System.out.println("organizing");
 	}
 }
