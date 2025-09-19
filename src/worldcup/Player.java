@@ -1,10 +1,12 @@
 package worldcup;
 
 /**
+
  * Class to define the Player
  */
 
 /*All the class Player created*/
+
 
 public class Player extends Person{
 	String position;
@@ -21,7 +23,4 @@ public class Player extends Person{
 	public void setPosition(String position) {
 		this.position = position;
 	}
-	
-	
-	
 }
