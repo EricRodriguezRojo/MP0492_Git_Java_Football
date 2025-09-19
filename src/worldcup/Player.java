@@ -23,4 +23,8 @@ public class Player extends Person{
 	public void setPosition(String position) {
 		this.position = position;
 	}
+	
+	public void passBall() {
+		System.out.println("The ball goes to ");
+	}
 }
