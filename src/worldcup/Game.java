@@ -77,41 +77,41 @@ public class Game {
 		Game game = new Game();
 		game.setField(new Field(100));
 		game.setDate(new Date());
-		game.setBall(new Ball());
+		game.setBall(new Ball("Plastic"));
 
 		// create players team A
 		ArrayList<Player> listA = new ArrayList<Player>();
-		listA.add(new Goalkeeper());
+		listA.add(new Goalkeeper(21, "Net", true));
 		// create 4 defender players for teamA
-		listA.add(new Defender());
-		listA.add(new Defender());
-		listA.add(new Defender());
-		listA.add(new Defender());
+		listA.add(new Defender(18, "Defensa Central"));
+		listA.add(new Defender(32, "Libero"));
+		listA.add(new Defender(2, "Lateral Derecho"));
+		listA.add(new Defender(94, "Lateral Izquierdo"));
 		// create 4 midfielder players for teamA
-		listA.add(new Midfielder());
-		listA.add(new Midfielder());
-		listA.add(new Midfielder());
-		listA.add(new Midfielder());
+		listA.add(new Midfielder(44, "Mediocentro Defensivo"));
+		listA.add(new Midfielder(34, "Mediocentro"));
+		listA.add(new Midfielder(22, "Extremo Derecho"));
+		listA.add(new Midfielder(26, "Extremo Izquierdo"));
 		// create 2 forward players for teamA
-		listA.add(new Forward());
-		listA.add(new Forward());
+		listA.add(new Forward(54, "Wing forward", true));
+		listA.add(new Forward(23, "Delantero Centro", false));
 
 		// create players team B
 		ArrayList<Player> listB = new ArrayList<Player>();
-		listB.add(new Goalkeeper());
+		listB.add(new Goalkeeper(28, "Net", true));
 		// create 4 defender players for teamA
-		listB.add(new Defender());
-		listB.add(new Defender());
-		listB.add(new Defender());
-		listB.add(new Defender());
+		listB.add(new Defender(24, "Defensa Central"));
+		listB.add(new Defender(37, "Libero"));
+		listB.add(new Defender(64, "Lateral Derecho"));
+		listB.add(new Defender(15, "Lateral Izquierdo"));
 		// create 4 midfielder players for teamA
-		listB.add(new Midfielder());
-		listB.add(new Midfielder());
-		listB.add(new Midfielder());
-		listB.add(new Midfielder());
+		listB.add(new Midfielder(14, "Mediocentro Defensivo"));
+		listB.add(new Midfielder(34, "Mediocentro"));
+		listB.add(new Midfielder(42, "Extremo Derecho"));
+		listB.add(new Midfielder(23, "Extremo Izquierdo"));
 		// create 2 forward players for teamA
-		listB.add(new Forward());
-		listB.add(new Forward());
+		listB.add(new Forward(54, "Wing forward", false));
+		listB.add(new Forward(29, "Delantero Centro", true));
 
 		// create teams
 		Team teamA = new Team("NewTeam");
