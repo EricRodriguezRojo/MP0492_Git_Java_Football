@@ -116,10 +116,10 @@ public class Game {
 		// create teams
 		Team teamA = new Team("NewTeam");
 		teamA.setPlayers(listA);
-		teamA.setCoach(new Coach());
+		teamA.setCoach(new Coach(12));
 		Team teamB = new Team("Maped");
 		teamB.setPlayers(listB);
-		teamB.setCoach(new Coach());
+		teamB.setCoach(new Coach(140));
 
 		// add teams to game
 		ArrayList<Team> teams = new ArrayList<Team>();
