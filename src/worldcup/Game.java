@@ -88,10 +88,10 @@ public class Game {
 		listA.add(new Defender(2, "Lateral Derecho"));
 		listA.add(new Defender(94, "Lateral Izquierdo"));
 		// create 4 midfielder players for teamA
-		listA.add(new Midfielder(44, "Mediocentro Defensivo"));
-		listA.add(new Midfielder(34, "Mediocentro"));
-		listA.add(new Midfielder(22, "Extremo Derecho"));
-		listA.add(new Midfielder(26, "Extremo Izquierdo"));
+		listA.add(new Midfielder(44, "Mediocentro Defensivo", true));
+		listA.add(new Midfielder(34, "Mediocentro", true));
+		listA.add(new Midfielder(22, "Extremo Derecho", false));
+		listA.add(new Midfielder(26, "Extremo Izquierdo", true));
 		// create 2 forward players for teamA
 		listA.add(new Forward(54, "Wing forward", true));
 		listA.add(new Forward(23, "Delantero Centro", false));
@@ -105,10 +105,10 @@ public class Game {
 		listB.add(new Defender(64, "Lateral Derecho"));
 		listB.add(new Defender(15, "Lateral Izquierdo"));
 		// create 4 midfielder players for teamA
-		listB.add(new Midfielder(14, "Mediocentro Defensivo"));
-		listB.add(new Midfielder(34, "Mediocentro"));
-		listB.add(new Midfielder(42, "Extremo Derecho"));
-		listB.add(new Midfielder(23, "Extremo Izquierdo"));
+		listB.add(new Midfielder(14, "Mediocentro Defensivo", false));
+		listB.add(new Midfielder(34, "Mediocentro", true));
+		listB.add(new Midfielder(42, "Extremo Derecho", true));
+		listB.add(new Midfielder(23, "Extremo Izquierdo", false));
 		// create 2 forward players for teamA
 		listB.add(new Forward(54, "Wing forward", false));
 		listB.add(new Forward(29, "Delantero Centro", true));
